@@ -26,7 +26,7 @@ module.exports = merge(webpackBaseConfig,{
                 NODE_ENV:'production'
             }
         }),
-        new HtmlwebpackPlugin({
+        new HtmlWebpackPlugin({
             filename: '../index_prod.html',
             template:'./index.ejs',
             inject:false
